@@ -1,0 +1,44 @@
+.month {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+
+    ul {
+
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+
+      }
+
+      .prev {
+          float: left;
+        padding-left: 20px;
+      }
+
+      .next {
+          float: right;
+        padding-right: 20px;
+      }
+
+      .btn-p-n {
+
+        font-size: 25px;
+        padding-top: 10px;
+
+      } //end btn-p-n
+
+    }//end ul
+
+}//end month
+
+
