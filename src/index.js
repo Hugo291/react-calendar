@@ -29,13 +29,20 @@ class Product extends React.Component{
 
 }
 
-function App(){
-    return (
-        <div>
-            <Product name="First"/>
-            <Product name="Second"/>
-        </div>
-    )
+class App extends React.Component{
+
+    state = {
+
+    };
+
+    render() {
+        return (
+            <div>
+                <Product name="First"/>
+                <Product name="Second"/>
+            </div>
+        )
+    }
 }
 
 ReactDOM.render(
