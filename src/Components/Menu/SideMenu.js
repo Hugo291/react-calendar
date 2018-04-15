@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import BurgerMenu from 'react-burger-menu';
-import './Menu.css'
+import './SideMenu.css'
 
 class SideMenu extends Component {
 

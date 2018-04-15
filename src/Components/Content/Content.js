@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderContent from './headerContent/HeaderContent';
 import Day from "./day/Day";
-import '../index.css'
+import '../../index.css'
 import ListTask from "../Task/ListTask";
 import Task from "../Task/Task";
 
