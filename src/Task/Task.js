@@ -1,15 +1,7 @@
 import React from "react";
-import './Day.css'
+import './Task.css'
 
-class Day extends React.Component{
-
-    constructor(props){
-        super(props);
-        this.state = {
-            value:this.props.value,
-            key:this.props.key
-        }
-    }
+class Task extends React.Component{
 
     render(){
         return(
@@ -18,8 +10,8 @@ class Day extends React.Component{
     }
 
     onHandleClick(){
-        alert("oncliclickDay : "+this.props.value);
+        alert("Task : "+this.props.value);
     }
 }
 
-export default Day;
+export default Task;

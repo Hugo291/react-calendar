@@ -7,18 +7,21 @@ class Day extends React.Component{
         super(props);
         this.state = {
             value:this.props.value,
-            key:this.props.key
+            list:this.props.list
         }
     }
 
     render(){
         return(
-            <li onClick={()=>{this.oncliclickDay()}}>{this.props.value}</li>
+            <li className="day" onClick={()=>{this.onclickDay()}}>
+                {this.props.value}
+                {this.props.list}
+            </li>
         )
     }
 
-    oncliclickDay(){
-        alert("oncliclickDay : "+this.props.value);
+    onclickDay(){
+        //alert("onclickDay : "+this.props.value);
     }
 }
 
